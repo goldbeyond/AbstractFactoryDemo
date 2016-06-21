@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1488D11D17EC75006FD585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488D01D17EC75006FD585 /* main.m */; };
+		CE1488DF1D17EE2B006FD585 /* SaveStudentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488DE1D17EE2B006FD585 /* SaveStudentInfo.m */; };
+		CE1488E21D17F46D006FD585 /* SqliteStudentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488E11D17F46D006FD585 /* SqliteStudentInfo.m */; };
+		CE1488E51D17F4AD006FD585 /* CoreDataStudentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488E41D17F4AD006FD585 /* CoreDataStudentInfo.m */; };
+		CE1488E81D17F78A006FD585 /* SearchStudentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488E71D17F78A006FD585 /* SearchStudentInfo.m */; };
+		CE1488EB1D181FE9006FD585 /* SqliteSearchStudentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488EA1D181FE9006FD585 /* SqliteSearchStudentInfo.m */; };
+		CE1488EE1D18202D006FD585 /* CoreDataSearchStudentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488ED1D18202D006FD585 /* CoreDataSearchStudentInfo.m */; };
+		CE1488F11D1820C9006FD585 /* AbstractDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488F01D1820C9006FD585 /* AbstractDataFactory.m */; };
+		CE1488F41D18218F006FD585 /* SqliteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488F31D18218F006FD585 /* SqliteFactory.m */; };
+		CE1488F71D182208006FD585 /* CoreDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1488F61D182208006FD585 /* CoreDataFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE1488CB1D17EC75006FD585 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE1488CD1D17EC75006FD585 /* iOS抽象工厂 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS抽象工厂"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1488D01D17EC75006FD585 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE1488DD1D17EE2B006FD585 /* SaveStudentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveStudentInfo.h; sourceTree = "<group>"; };
+		CE1488DE1D17EE2B006FD585 /* SaveStudentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveStudentInfo.m; sourceTree = "<group>"; };
+		CE1488E01D17F46D006FD585 /* SqliteStudentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteStudentInfo.h; sourceTree = "<group>"; };
+		CE1488E11D17F46D006FD585 /* SqliteStudentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteStudentInfo.m; sourceTree = "<group>"; };
+		CE1488E31D17F4AD006FD585 /* CoreDataStudentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStudentInfo.h; sourceTree = "<group>"; };
+		CE1488E41D17F4AD006FD585 /* CoreDataStudentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStudentInfo.m; sourceTree = "<group>"; };
+		CE1488E61D17F78A006FD585 /* SearchStudentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchStudentInfo.h; sourceTree = "<group>"; };
+		CE1488E71D17F78A006FD585 /* SearchStudentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchStudentInfo.m; sourceTree = "<group>"; };
+		CE1488E91D181FE9006FD585 /* SqliteSearchStudentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteSearchStudentInfo.h; sourceTree = "<group>"; };
+		CE1488EA1D181FE9006FD585 /* SqliteSearchStudentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteSearchStudentInfo.m; sourceTree = "<group>"; };
+		CE1488EC1D18202D006FD585 /* CoreDataSearchStudentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataSearchStudentInfo.h; sourceTree = "<group>"; };
+		CE1488ED1D18202D006FD585 /* CoreDataSearchStudentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataSearchStudentInfo.m; sourceTree = "<group>"; };
+		CE1488EF1D1820C9006FD585 /* AbstractDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDataFactory.h; sourceTree = "<group>"; };
+		CE1488F01D1820C9006FD585 /* AbstractDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractDataFactory.m; sourceTree = "<group>"; };
+		CE1488F21D18218F006FD585 /* SqliteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteFactory.h; sourceTree = "<group>"; };
+		CE1488F31D18218F006FD585 /* SqliteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteFactory.m; sourceTree = "<group>"; };
+		CE1488F51D182208006FD585 /* CoreDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataFactory.h; sourceTree = "<group>"; };
+		CE1488F61D182208006FD585 /* CoreDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1488CA1D17EC75006FD585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1488C41D17EC75006FD585 = {
+			isa = PBXGroup;
+			children = (
+				CE1488CF1D17EC75006FD585 /* iOS抽象工厂 */,
+				CE1488CE1D17EC75006FD585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1488CE1D17EC75006FD585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1488CD1D17EC75006FD585 /* iOS抽象工厂 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1488CF1D17EC75006FD585 /* iOS抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				CE1488D01D17EC75006FD585 /* main.m */,
+				CE1488DD1D17EE2B006FD585 /* SaveStudentInfo.h */,
+				CE1488DE1D17EE2B006FD585 /* SaveStudentInfo.m */,
+				CE1488E01D17F46D006FD585 /* SqliteStudentInfo.h */,
+				CE1488E11D17F46D006FD585 /* SqliteStudentInfo.m */,
+				CE1488E31D17F4AD006FD585 /* CoreDataStudentInfo.h */,
+				CE1488E41D17F4AD006FD585 /* CoreDataStudentInfo.m */,
+				CE1488E61D17F78A006FD585 /* SearchStudentInfo.h */,
+				CE1488E71D17F78A006FD585 /* SearchStudentInfo.m */,
+				CE1488E91D181FE9006FD585 /* SqliteSearchStudentInfo.h */,
+				CE1488EA1D181FE9006FD585 /* SqliteSearchStudentInfo.m */,
+				CE1488EC1D18202D006FD585 /* CoreDataSearchStudentInfo.h */,
+				CE1488ED1D18202D006FD585 /* CoreDataSearchStudentInfo.m */,
+				CE1488EF1D1820C9006FD585 /* AbstractDataFactory.h */,
+				CE1488F01D1820C9006FD585 /* AbstractDataFactory.m */,
+				CE1488F21D18218F006FD585 /* SqliteFactory.h */,
+				CE1488F31D18218F006FD585 /* SqliteFactory.m */,
+				CE1488F51D182208006FD585 /* CoreDataFactory.h */,
+				CE1488F61D182208006FD585 /* CoreDataFactory.m */,
+			);
+			path = "iOS抽象工厂";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1488CC1D17EC75006FD585 /* iOS抽象工厂 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1488D41D17EC75006FD585 /* Build configuration list for PBXNativeTarget "iOS抽象工厂" */;
+			buildPhases = (
+				CE1488C91D17EC75006FD585 /* Sources */,
+				CE1488CA1D17EC75006FD585 /* Frameworks */,
+				CE1488CB1D17EC75006FD585 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS抽象工厂";
+			productName = "iOS抽象工厂";
+			productReference = CE1488CD1D17EC75006FD585 /* iOS抽象工厂 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1488C51D17EC75006FD585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "青云信息技术有限公司";
+				TargetAttributes = {
+					CE1488CC1D17EC75006FD585 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CE1488C81D17EC75006FD585 /* Build configuration list for PBXProject "iOS抽象工厂" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE1488C41D17EC75006FD585;
+			productRefGroup = CE1488CE1D17EC75006FD585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1488CC1D17EC75006FD585 /* iOS抽象工厂 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1488C91D17EC75006FD585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1488F41D18218F006FD585 /* SqliteFactory.m in Sources */,
+				CE1488D11D17EC75006FD585 /* main.m in Sources */,
+				CE1488DF1D17EE2B006FD585 /* SaveStudentInfo.m in Sources */,
+				CE1488EE1D18202D006FD585 /* CoreDataSearchStudentInfo.m in Sources */,
+				CE1488F11D1820C9006FD585 /* AbstractDataFactory.m in Sources */,
+				CE1488EB1D181FE9006FD585 /* SqliteSearchStudentInfo.m in Sources */,
+				CE1488F71D182208006FD585 /* CoreDataFactory.m in Sources */,
+				CE1488E81D17F78A006FD585 /* SearchStudentInfo.m in Sources */,
+				CE1488E51D17F4AD006FD585 /* CoreDataStudentInfo.m in Sources */,
+				CE1488E21D17F46D006FD585 /* SqliteStudentInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE1488D21D17EC75006FD585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE1488D31D17EC75006FD585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE1488D51D17EC75006FD585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE1488D61D17EC75006FD585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1488C81D17EC75006FD585 /* Build configuration list for PBXProject "iOS抽象工厂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1488D21D17EC75006FD585 /* Debug */,
+				CE1488D31D17EC75006FD585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1488D41D17EC75006FD585 /* Build configuration list for PBXNativeTarget "iOS抽象工厂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1488D51D17EC75006FD585 /* Debug */,
+				CE1488D61D17EC75006FD585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1488C51D17EC75006FD585 /* Project object */;
+}
